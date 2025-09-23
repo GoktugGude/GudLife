@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-div{
+width: 100vw;
+
+  display: flex;
+  background-color: navy;
+  height: 350px;
+  align-items: center;
+  
+}
+
+.footer{
+width: 100vw;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.logo img{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+     flex-shrink: 0;
+    
+}
+
+.iletisim{
+    line-height: 30px;
+    width: 30vw;
+    align-self: center;
+    color: wheat;
+}
+
+.iletisim ul{
+    width: 25vw;
+
+    display: flex;
+    gap: 20px;
+}
+
+.iletisim ul i{
+    color: white;
+    font-size: larger;
+    background-color: black;
+}
+.nabiz{
+    display: flex;
+    height: 100px;
+    align-items: center;
+
+}
+svg {
+    align-items: center;
+
+    width: 100%;
+  }
+
+  path {
+    align-items: center;
+    justify-content: center;
+    fill: none;
+    stroke: #ff0000;
+    stroke-width: 3;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+
+    /* çizgi animasyonu */
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 5s linear infinite;
+    filter: drop-shadow(0 0 6px #ff0000);
+  }
+
+  @keyframes draw {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  /* NABIZ BİTİŞ */
