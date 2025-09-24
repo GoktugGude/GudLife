@@ -2,7 +2,7 @@
 
 
 // NAVBAR başlangıç
-fetch("/shared/header.html")
+fetch("/header.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("header").innerHTML = data;
@@ -20,7 +20,7 @@ fetch("/shared/header.html")
   .catch(err => console.error("Header yüklenemedi:", err));
 // NAVBAR bitiş
 // FOOTER yükle
-fetch("/shared/footer.html")
+fetch("/footer.html")
   .then(response => response.text())
   .then(data =>{
     document.getElementById("footer").innerHTML = data;
