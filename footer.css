@@ -6,7 +6,7 @@
 }
 
 .footer-div{
-width: 100vw;
+width: 100%;
 
   display: flex;
   background-color: navy;
@@ -16,7 +16,7 @@ width: 100vw;
 }
 
 .footer{
-width: 100vw;
+width: 100%;
     align-items: center;
 
     display: flex;
@@ -24,12 +24,17 @@ width: 100vw;
     gap: 200px;
 }
 
-.logo img{
-    width: 400px;
-    height: 400px;
+.logo{
+    max-width: 400px;
+    height: auto;
     align-items: center;
-     flex-shrink: 0;
     
+}
+
+.logo img{
+    max-width: 300px;
+    height: auto;
+
 }
 
 .iletisim{
@@ -40,13 +45,14 @@ width: 100vw;
 }
 
 .iletisim ul{
-    width: 25vw;
+    max-width: 100%;
 
     display: flex;
     gap: 20px;
 }
 
 .iletisim ul i{
+    max-width: 100%;
     color: white;
     font-size: larger;
     background-color: black;
@@ -88,3 +94,11 @@ svg {
     }
   }
   /* NABIZ BİTİŞ */
+
+  @media (max-width: 1080px) {
+    .iletisim {
+        display: none;
+    }
+   
+  }
+

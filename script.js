@@ -1,17 +1,31 @@
+
+
+
 // NAVBAR başlangıç
-  fetch("header.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("header").innerHTML = data;
-      });
+fetch("header.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("header").innerHTML = data;
 
-    //   NAVBAR bitiş
+    // Header yüklendikten sonra menü toggle bağla
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("navigasyon-link");
 
-    fetch("footer.html")
-      .then(response => response.text())
-      .then(data =>{
-        document.getElementById("footer").innerHTML = data;
+    if (menuToggle && navLinks) {
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
       });
+    }
+  })
+  .catch(err => console.error("Header yüklenemedi:", err));
+// NAVBAR bitiş
+// FOOTER yükle
+fetch("footer.html")
+  .then(response => response.text())
+  .then(data =>{
+    document.getElementById("footer").innerHTML = data;
+  })
+  .catch(err => console.error("Footer yüklenemedi:", err));
 
     // DOKTORLAR SLIDER BASLANGIC
 // Slider elemanlarını seç
@@ -97,3 +111,5 @@ backToTopBtn.addEventListener("click", () => {
   });
 });
 //Back to Up Bitiş <-
+
+ 
