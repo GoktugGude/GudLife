@@ -1,12 +1,12 @@
 .carousel-inner{
     
-    max-height: 78vh;
+    max-height: 78%;
     
 }
 
 .carousel-inner img{
     
-    min-height: 76vh;
+    min-height: 76%;
 
 }
 
@@ -225,6 +225,8 @@ grid-template-columns: repeat(2, 1fr);
        svg {
     padding-left: 40%;
   }
+
+
 
 }
 
