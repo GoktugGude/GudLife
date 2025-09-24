@@ -1,12 +1,14 @@
 .carousel-inner{
     
-    max-height: 78%;
+    max-height: 78vh;
     
 }
 
 .carousel-inner img{
     
-    min-height: 76%;
+    width: 100%;       /* Responsive genişlik */
+    height: auto;      /* Oranı bozmadan küçült */
+    object-fit: contain; /* Gerekirse kırpar */
 
 }
 
@@ -237,4 +239,10 @@ grid-template-columns: repeat(2, 1fr);
     flex: 0 0 calc((100% - 10px) / 1); /* 2 kart göster */
   }
 
+}
+
+@media (max-width: 768px) {
+    .carousel-inner {
+        height: 50vh; /* Mobilde daha kısa, oran korunur */
+    }
 }
