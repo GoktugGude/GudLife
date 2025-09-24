@@ -84,5 +84,11 @@ width: 100%;
   .navigasyon-link ul{
   display: flex;
   gap: 15px;
+
+}
+
+.navigasyon-link ul a{
+    font-size: smaller;
+  font-weight: 500;
 }
 }
