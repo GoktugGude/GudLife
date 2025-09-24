@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/shared/header.css">
+  <link rel="stylesheet" href="/shared/footer.css">
+  <link rel="stylesheet" href="doktor-yonetim.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 col-sm-9 mx-auto">
+            <h2 class="display-5 text-center mt-5 mb-5">Doktor Kayıt Forumu</h2>
+            <form action="">
+                <div class="row mb-3">
+                    <label for="name" class="col-md-3 col-form-label">Adınız:</label>
+                    <div class="col-md-9 ">
+                        <input type="text" id="name" placeholder="Adınızı giriniz." class="form-control"required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="surname" class="col-md-3 col-form-label">Soydınız:</label>
+                    <div class="col-md-9">
+                        <input type="text" id="surname" placeholder="Soyadınızı giriniz." class="form-control"required>
+                    </div>
+                </div>
+                 <div class="row mb-3">
+                    <label for="email" class="col-md-3 col-form-label">E-Posta Adresiniz:</label>
+                    <div class="col-md-9 mt-2">
+                        <input type="email" id="email" placeholder="E-Posta Adresinizi giriniz." class="form-control"required>
+                    </div>
+                </div>
+                 <div class="row mb-3">
+                    <label for="password" class="col-md-3 col-form-label">Şifreniz:</label>
+                    <div class="col-md-9">
+                        <input type="password" id="password" placeholder="Şifrenizi giriniz." class="form-control"required>
+                    </div>
+                </div>
+                 <div class="row mb-3 ">
+                    <label for="password" class="col-md-3 col-form-label">Tekrar Şifreniz:</label>
+                    <div class="col-md-9 mt-2">
+                        <input type="password" id="password" placeholder="Şifrenizi tekrar giriniz." class="form-control"required>
+                    </div>
+                </div>
+                 <div class="row mb-3">
+                    <label for="birthday" class="col-md-3 col-form-label">Doğum Tarihiniz:</label>
+                    <div class="col-md-9">
+                        <input type="date" id="birthday" placeholder="Doğum Tarihinizi giriniz." class="form-control"required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="tc" class="col-md-3 col-form-label">T.C Kimlik NO:</label>
+                    <div class="col-md-9">
+                        <input type="number" id="tc" placeholder="T.C kimlik numaranızı giriniz." class="form-control"required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="phone" class="col-md-3 col-form-label">Telefon Numarası:</label>
+                    <div class="col-md-9">
+                        <input type="tel" id="phone" placeholder="Telefon Nuamranızı giriniz." class="form-control"required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="specialist" class="col-md-3 col-form-label">Uzmanlığınız:</label>
+                    <select class="form-select " id="">
+                    <option selected>Baş Hekim</option>
+                    <option value="1">Kardiyoloji</option>
+                    <option value="2">Hemşire</option>
+                    <option value="3">Nöroloji</option>
+                    <option value="4">Genel Cerrah</option>
+                    <option value="5">Dahiliye</option>
+                    <option value="6">Psikolog</option>
+                </select>
+                </div>
+                <div class="d-grid col-md-3 mx-auto mb-5">
+             <button type="submit" class="btn btn-primary">Kayıt Ekle</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- script başlangıç -->
+ <script src="/script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ <!-- script bitiş -->
+<div id="footer"></div>
+
+</body>
+</html>
