@@ -43,17 +43,33 @@
     font-weight: bolder;
 }
 
-@media (max-width: 865px) {
+@media (max-width: 1440px) {
   .reklam-text{
-    letter-spacing: 30px;
+    letter-spacing: 20px;
   
 }
 
 }
 
-@media (max-width: 595px) {
+@media (max-width: 830px) {
   .reklam-text{
-    letter-spacing: 20px;
+    letter-spacing: 10px;
+  
+}
+
+}
+
+@media (max-width: 605px) {
+  .reklam-text{
+    letter-spacing: 7px;
+  
+}
+
+}
+
+@media (max-width: 535px) {
+  .reklam-text{
+    letter-spacing: 5px;
   
 }
 
