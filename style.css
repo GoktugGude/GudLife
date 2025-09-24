@@ -7,11 +7,9 @@
 
 .carousel-inner img{
     
-    max-width: 100%;       /* Responsive genişlik */
-    max-height: 100%;      /* Oranı bozmadan küçült */
-    object-fit: contain; /* Gerekirse kırpar */
-    width: auto;
-    height: auto;
+    max-width: 100%;
+    height: 40vh;       /* Responsive genişlik */
+   
 }
 
 .section1{
@@ -229,7 +227,10 @@ grid-template-columns: repeat(2, 1fr);
        svg {
     padding-left: 40%;
   }
-
+.section1{
+    background-color: white;
+    height: 48vh;
+}
 
 
 }
