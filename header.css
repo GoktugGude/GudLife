@@ -67,6 +67,7 @@ width: 100%;
   .menu-toggle {
     display: flex;
     align-self: center;
+    
   }
   .navigasyon-link {
     display: none;
@@ -92,4 +93,6 @@ width: 100%;
     font-size: smaller;
   font-weight: 500;
 }
+
+
 }

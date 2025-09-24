@@ -25,6 +25,7 @@ width: 100%;
 }
 
 .logo{
+  display: flex;
     max-width: 400px;
     height: auto;
     align-items: center;
@@ -99,6 +100,8 @@ svg {
     .iletisim {
         display: none;
     }
-   
+   .logo img{
+    margin-left: 35%;
+}
   }
 
